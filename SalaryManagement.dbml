@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="KangKeDe" Class="SalaryManagementDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=KangKeDe;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="testConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.K_Salary_Management" Member="K_Salary_Management">
+    <Type Name="K_Salary_Management">
+      <Column Name="sm_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sm_project" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="sm_serial_number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sm_use" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
